@@ -11,7 +11,7 @@ public class ShowAction extends ActionSupport{
 
 	public String showMsg(){
 		System.out.println("enter showMsg");
-		int i=5/0;
+		int i=5/0;//出现异常
 		return SUCCESS;
 	}
 
